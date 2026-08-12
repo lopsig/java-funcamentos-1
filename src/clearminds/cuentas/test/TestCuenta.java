@@ -20,7 +20,7 @@ public class TestCuenta {
         cuenta3.imprimir();
 
         // 3. Nuevas Cuentas
-        Cuenta cuenta4 = new Cuenta("030712", "A", 544.988);
+        Cuenta cuenta4 = new Cuenta("030712", "C", 544.988);
 
         Cuenta cuenta5 = new Cuenta("8693");
         cuenta5.setSaldo(998.53);
