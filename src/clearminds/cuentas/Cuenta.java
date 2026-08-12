@@ -14,8 +14,8 @@ public class Cuenta {
     public String getTipo() {
         return tipo;
     }
-    public void setId(String id) {
-        this.id = id;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
     public double getSaldo() {
@@ -51,13 +51,13 @@ public class Cuenta {
     }
 
     public void imprimirConMiEstilo () {
-        System.out.println("************************");
-        System.out.println("  MI ESTILO CUENTA          ");
-        System.out.println("************************");
-        System.out.println("ESTILO Número de Cuenta: " + getId());
-        System.out.println(" ESTILO Tipo: " + getTipo());
-        System.out.println("ESTILO Saldo: USD " + getSaldo());
-        System.out.println("************************");
+        System.out.println("+------------------------------------+");
+        System.out.println("|           DETALLE DE CUENTA        |");
+        System.out.println("+------------------------------------+");
+        System.out.println(" ID Cuenta : " + getId());
+        System.out.println(" Tipo      : " + getTipo());
+        System.out.println(" Saldo     : USD " + getSaldo());
+        System.out.println("+------------------------------------+");
 
 
     }
